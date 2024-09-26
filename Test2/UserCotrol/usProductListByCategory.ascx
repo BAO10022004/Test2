@@ -15,4 +15,9 @@
         </span>
     </ItemTemplate>
 </asp:ListView>
-<asp:EntityDataSource runat="server" ID="EntityDataSource1" DefaultContainerName="MyShopEntities" ConnectionString="name=MyShopEntities" EnableFlattening="False" EntitySetName="Products"></asp:EntityDataSource>
+<asp:EntityDataSource runat="server" ID="EntityDataSource1" DefaultContainerName="MyShopEntities" ConnectionString="name=MyShopEntities" EnableFlattening="False" EntitySetName="Products" Where="it.Category.id= @ID" EntityTypeFilter="" Select="">
+    <WhereParameters>
+        <asp:QueryStringParameter Name="name" Type="String"></asp:QueryStringParameter>
+        <asp:QueryStringParameter QueryStringField="id" Name="ID" Type="Int32"></asp:QueryStringParameter>
+    </WhereParameters>
+</asp:EntityDataSource>

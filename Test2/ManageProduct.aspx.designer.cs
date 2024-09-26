@@ -11,16 +11,16 @@ namespace Test2
 {
 
 
-    public partial class ManageCategory
+    public partial class ManageProduct
     {
 
         /// <summary>
-        /// ucManageCategory control.
+        /// ucManageProduct control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::Test2.UserCotrol.ucManageCategory ucManageCategory;
+        protected global::Test2.UserCotrol.ucManageProduct ucManageProduct;
     }
 }

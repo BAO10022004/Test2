@@ -3,5 +3,7 @@
   <siteMapNode url="Default.aspx" title="Default"  description="">
     <siteMapNode url="Search.aspx" title="Search"  description="" />
     <siteMapNode url="ManageCategory.aspx" title="Manage Category"  description="" />
+	  <siteMapNode url="ManageProDuct.aspx" title="Manage Product"  description="" />
   </siteMapNode>
+	
 </siteMap>

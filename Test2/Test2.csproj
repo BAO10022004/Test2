@@ -88,6 +88,7 @@
     <Content Include="img\Products\ss.PNG" />
     <Content Include="img\Products\V60ThinQ.jpg" />
     <Content Include="ManageCategory.aspx" />
+    <Content Include="ManageProduct.aspx" />
     <Content Include="Model1.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>Model1.Context.cs</LastGenOutput>
@@ -102,6 +103,7 @@
     <Content Include="StyleSheet\StyleSheet.css" />
     <Content Include="UserCotrol\Home.ascx" />
     <Content Include="UserCotrol\ucCategoryList.ascx" />
+    <Content Include="UserCotrol\ucManageCategory.ascx" />
     <Content Include="UserCotrol\ucManageProduct.ascx" />
     <Content Include="UserCotrol\ucProduct1.ascx" />
     <Content Include="UserCotrol\ucSearch.ascx" />
@@ -135,6 +137,13 @@
     </Compile>
     <Compile Include="ManageCategory.aspx.designer.cs">
       <DependentUpon>ManageCategory.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ManageProduct.aspx.cs">
+      <DependentUpon>ManageProduct.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ManageProduct.aspx.designer.cs">
+      <DependentUpon>ManageProduct.aspx</DependentUpon>
     </Compile>
     <Compile Include="Model1.Context.cs">
       <AutoGen>True</AutoGen>
@@ -182,6 +191,13 @@
     </Compile>
     <Compile Include="UserCotrol\ucCategoryList.ascx.designer.cs">
       <DependentUpon>ucCategoryList.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserCotrol\ucManageCategory.ascx.cs">
+      <DependentUpon>ucManageCategory.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserCotrol\ucManageCategory.ascx.designer.cs">
+      <DependentUpon>ucManageCategory.ascx</DependentUpon>
     </Compile>
     <Compile Include="UserCotrol\ucManageProduct.ascx.cs">
       <DependentUpon>ucManageProduct.ascx</DependentUpon>

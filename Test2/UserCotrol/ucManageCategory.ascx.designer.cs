@@ -11,17 +11,26 @@ namespace Test2.UserCotrol
 {
 
 
-    public partial class Home
+    public partial class ucManageCategory
     {
 
         /// <summary>
-        /// FormView1 control.
+        /// GridView1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.FormView FormView1;
+        protected global::System.Web.UI.WebControls.GridView GridView1;
+
+        /// <summary>
+        /// ctl00 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DetailsView ctl00;
 
         /// <summary>
         /// EntityDataSource1 control.
