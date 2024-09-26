@@ -1,0 +1,40 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Test2.Site1" %>
+
+<%@ Register Src="~/UserCotrol/ucCategoryList.ascx" TagPrefix="uc1" TagName="ucCategoryList" %>
+
+
+
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="StyleSheet/StyleSheet.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+            <div id="menu">
+                <asp:Menu ID="navigation" runat="server" DataSourceID="SiteMapDataSource1" StaticDisplayLevels="2"></asp:Menu>
+                <asp:SiteMapDataSource runat="server" ID="SiteMapDataSource1"></asp:SiteMapDataSource>
+            </div>
+        <div id ="banner">
+            <img ID="imgBanner" src="img/banner.jpg" Width="100%" Height="43px" />
+        </div>
+        <div> 
+            <asp:SiteMapPath ID="SiteMapPath1" runat="server"></asp:SiteMapPath>
+        </div>
+        <br />
+        <div id ="sidebar">
+            <uc1:ucCategoryList runat="server" ID="ucCategoriesList1" />
+        </div>
+        <div id ="content">
+      
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
